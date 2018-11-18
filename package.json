@@ -1,6 +1,6 @@
 {
   "name": "themed-styled-components-poc",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A brief example of how to build various CSS files with a different set of variables for different themes combining SCSS frameworks and tailored CSS code from components",
   "main": "index.js",
   "scripts": {

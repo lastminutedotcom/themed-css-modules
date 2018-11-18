@@ -1,13 +1,16 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
+
+import { Header } from './header/header';
+import { Title } from './title/title';
 import styles from './mainLayout.scss';
 
 class Hello extends React.Component {
     render() {
         return (
             <Fragment>
-                <header>TSC (Poc)</header>
-                <h1>Hello world...</h1>
+                <Header/>
+                <Title/>
             </Fragment>
         );
     }
