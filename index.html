@@ -8,5 +8,15 @@
 </head>
 <body>
     <div id="app"></div>
+
+    <button onclick="changeCss('pink')">Pink</button>
+    <button onclick="changeCss('blue')">Blue</button>
+    <button onclick="changeCss('green')">Green</button>
+
+    <script>
+      function changeCss(color) {
+        document.getElementsByTagName("link")[0].href = color + '-theme.css'
+      }
+    </script>
 </body>
 </html>
