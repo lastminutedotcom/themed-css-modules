@@ -1,8 +1,14 @@
+const fs = require('fs');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const createVariants = require('parallel-webpack').createVariants;
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+function getThemes () {
+  const files = fs.readdirSync('./src/themes/');
+  return files.map(fileName => fileName.replace(/(^_|.scss$)/g, ''));
+}
 
 const paths = {
   SRC: path.resolve(__dirname, 'src'),
@@ -10,7 +16,7 @@ const paths = {
 };
 
 const variants = {
-  themes: ['pink', 'blue', 'green']
+  themes: getThemes ()
 };
 
 function createConfig(options) {
