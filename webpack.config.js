@@ -45,7 +45,9 @@ module.exports = {
           },{
             loader: "sass-loader", options: {
               modules: true,
-              sourceMap: true
+              sourceMap: true,
+              data: '@import "variables";',
+              includePaths: [path.join(__dirname, 'src')]
             }
           }]
       }]
