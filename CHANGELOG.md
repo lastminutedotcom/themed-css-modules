@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/es-ES/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2018-10-19
+
+### Added
+- [bootstrap-sass](https://github.com/zeit/next-plugins/issues/135#issuecomment-390862851)
+
 ## [0.6.0] - 2018-11-18
 
 ### Added

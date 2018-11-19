@@ -1,3 +1,5 @@
+html { :global { @import './vendors/custom-bootstrap.scss'; } }
+
 * {
   font-family: 'Open Sans', sans-serif;
 }

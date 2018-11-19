@@ -1,6 +1,6 @@
 {
   "name": "themed-styled-components-poc",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A brief example of how to build various CSS files with a different set of variables for different themes combining SCSS frameworks and tailored CSS code from components",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "bootstrap-sass": "^3.3.7",
     "css-loader": "^1.0.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.4",
