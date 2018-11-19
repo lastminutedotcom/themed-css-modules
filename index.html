@@ -7,11 +7,14 @@
     <title>Themes with 'styled-components' (PoC)</title>
 </head>
 <body>
-    <div id="app"></div>
-
-    <button onclick="changeCss('pink')">Pink</button>
-    <button onclick="changeCss('blue')">Blue</button>
-    <button onclick="changeCss('green')">Green</button>
+    <div class="container">
+        <div id="app"></div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="changeCss('pink')">Pink</button>
+            <button type="button" class="btn btn-default" onclick="changeCss('blue')">Blue</button>
+            <button type="button" class="btn btn-default" onclick="changeCss('green')">Green</button>
+        </div>
+    </div>
 
     <script>
       function changeCss(color) {
