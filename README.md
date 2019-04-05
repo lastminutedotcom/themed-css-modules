@@ -1,4 +1,4 @@
-# Themes with 'styled-components' (PoC)
+# Themes with Bootstrap and css-modules (PoC)
 A brief example of how to build various CSS files with a different set of variables for different themes combining SCSS frameworks and tailored CSS code from components
 ### References
 [Keep a Changelog](http://keepachangelog.com/es-ES/)  
