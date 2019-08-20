@@ -9,7 +9,7 @@
     "test": "test"
   },
   "author": "Aurelio G",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.1.0",
